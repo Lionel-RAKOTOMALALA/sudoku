@@ -7,10 +7,10 @@
 ╚════██║██║   ██║██║  ██║██║   ██║██╔═██╗ ██║   ██║
 ███████║╚██████╔╝██████╔╝╚██████╔╝██║  ██╗╚██████╔╝
 ╚══════╝ ╚═════╝ ╚═════╝  ╚═════╝ ╚═╝  ╚═╝ ╚═════╝
-        ✦  CSP  SOLVER  ✦  ALGORITHMES  IA  ✦
+        ✦  CSP  SOLVER  ✦  ALGORITHMES  CSP  ✦
 ```
 
-**Résolveur de Sudoku intelligent — Backtracking · AC-3 · MRV/LCV**
+**Résolveur de Sudoku — Backtracking · AC-3 · MRV/LCV**
 
 [![Next.js](https://img.shields.io/badge/Next.js_15-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
@@ -20,7 +20,7 @@
 
 <br/>
 
-> *"Voir un algorithme penser en temps réel — c'est exactement ce que fait ce projet."*
+> *"Voir un algorithme résoudre un problème étape par étape — c'est exactement ce que fait ce projet."*
 
 <br/>
 
@@ -32,13 +32,15 @@
 
 ## ✦ Aperçu
 
-**Sudoku CSP Solver** est une application web interactive qui résout des grilles de Sudoku à l'aide de trois approches algorithmiques distinctes. Chaque résolution se déroule **visuellement, étape par étape**, avec des métriques en temps réel pour comparer l'efficacité de chaque méthode.
+**Sudoku CSP Solver** est une application web interactive qui résout des grilles de Sudoku à l'aide de trois approches algorithmiques distinctes issues du domaine des **Problèmes de Satisfaction de Contraintes (CSP)**. Chaque résolution se déroule **visuellement, étape par étape**, avec des métriques en temps réel pour comparer l'efficacité de chaque méthode.
 
-C'est à la fois un **outil pédagogique** pour comprendre les Problèmes de Satisfaction de Contraintes (CSP), et une **démonstration concrète** de l'impact des heuristiques sur les performances de recherche.
+C'est un **outil pédagogique** pour comprendre les algorithmes de recherche et de propagation de contraintes — des techniques déterministes et entièrement explicables, sans apprentissage automatique.
 
 ```
 Difficulté  →  Algorithme  →  Résolution animée  →  Analyse de performance
 ```
+
+> **Note** — Ces algorithmes appartiennent à l'**IA symbolique classique** (années 80–90). Ils sont déterministes, entièrement explicables et ne font **aucun apprentissage**. Ils diffèrent fondamentalement du machine learning ou du deep learning modernes.
 
 ---
 
@@ -87,7 +89,7 @@ Propagation AC-3 → Réduction des domaines → Assignation → ...
 
 ### 3 — MRV/LCV + AC-3 (optimal)
 
-L'approche la plus intelligente, combinant deux heuristiques puissantes :
+L'approche la plus efficace, combinant deux heuristiques puissantes :
 
 - **MRV** *(Minimum Remaining Values)* — Choisit la variable avec le **moins de valeurs possibles**
 - **LCV** *(Least Constraining Value)* — Choisit la valeur qui **contraint le moins les voisins**
@@ -247,7 +249,7 @@ Voir le fichier [LICENSE](./LICENSE) pour les détails complets.
 
 **Conçu avec passion par [Lionel RAKOTOMALALA](https://github.com/Lionel-RAKOTOMALALA)**
 
-*L'intelligence artificielle au service du casse-tête le plus célèbre du monde.*
+*Algorithmique de recherche et satisfaction de contraintes appliquées au casse-tête le plus célèbre du monde.*
 
 [![GitHub](https://img.shields.io/badge/GitHub-Lionel--RAKOTOMALALA-181717?style=flat-square&logo=github)](https://github.com/Lionel-RAKOTOMALALA)
 
