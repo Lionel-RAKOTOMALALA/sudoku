@@ -17,6 +17,7 @@
 [![React](https://img.shields.io/badge/React_19-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
 [![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/)
 [![License MIT](https://img.shields.io/badge/Licence-MIT-22c55e?style=for-the-badge)](./LICENSE)
+[![Demo](https://img.shields.io/badge/Demo_Live-sudoku--two--brown.vercel.app-6366f1?style=for-the-badge&logo=vercel&logoColor=white)](https://sudoku-two-brown.vercel.app/)
 
 <br/>
 
@@ -24,7 +25,7 @@
 
 <br/>
 
-[**🚀 Démo Live**](#) · [**📖 Documentation**](#algorithmes-expliqués) · [**🐛 Signaler un bug**](https://github.com/Lionel-RAKOTOMALALA/sudoku/issues)
+[**🚀 Démo Live**](https://sudoku-two-brown.vercel.app/) · [**📖 Documentation**](#algorithmes-expliqués) · [**🐛 Signaler un bug**](https://github.com/Lionel-RAKOTOMALALA/sudoku/issues)
 
 </div>
 
@@ -56,6 +57,22 @@ Difficulté  →  Algorithme  →  Résolution animée  →  Analyse de performa
 | ⚡ **Métriques comparatives** | Visualisez l'efficacité relative des algorithmes |
 
 ---
+
+## ✦ Modélisation CSP
+
+Le Sudoku est formalisé comme un **Problème de Satisfaction de Contraintes** avec :
+
+| Composant | Valeur | Détail |
+|---|---|---|
+| **Variables (X)** | 81 | Une par cellule de la grille 9×9 |
+| **Domaines (D)** | `{ 1 .. 9 }` | Valeurs possibles par cellule |
+| **Contraintes (C)** | 27 | 9 lignes + 9 colonnes + 9 blocs 3×3 |
+
+Chaque unité (ligne, colonne, bloc) impose que ses 9 cellules aient des valeurs **toutes distinctes**.
+
+---
+
+
 
 ## ✦ Algorithmes expliqués
 
